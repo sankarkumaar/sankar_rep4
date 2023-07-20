@@ -1,0 +1,7 @@
+../Core/Src/time.c:18:6:decimalcopyhex	32	static
+../Core/Src/time.c:102:6:decimalcopyhex_date	24	static
+../Core/Src/time.c:135:6:decimalcopyhex_month	24	static
+../Core/Src/time.c:170:6:decimalcopyhex_Year	24	static
+../Core/Src/time.c:212:6:decimalcopyhex_Month	80	static
+../Core/Src/time.c:276:6:update_time	16	static
+../Core/Src/time.c:285:6:converthex	40	static

@@ -1,0 +1,92 @@
+Configuration	NUCLEO_G070RB_1
+STM32CubeMX 	6.7.0
+Date	07/12/2023
+MCU	STM32G070RBTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+RCC	BYPASS Clock Source	RCC_OSC_IN	PF0-OSC_IN (PF0)
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_IN	PC14-OSC32_IN (PC14)
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_OUT	PC15-OSC32_OUT (PC15)
+RTC	Activate RTC Clock Source	RTC_VS_RTC_Activate	VP_RTC_VS_RTC_Activate
+RTC	RTC Enabled	RTC_VS_RTC_Calendar	VP_RTC_VS_RTC_Calendar
+RTC	Reference_Clock_Detection_Activate	RTC_REFIN	PB15
+SYS	Serial Wire	SYS_SWCLK	PA14-BOOT0
+SYS	Serial Wire	SYS_SWDIO	PA13
+SYS	SYS_WakeUp1	SYS_WKUP2	PC13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+SYS	Dead Battery Signals disabled	SYS_VS_DBSignals	VP_SYS_VS_DBSignals
+TIM1	Internal Clock	TIM1_VS_ClockSourceINT	VP_TIM1_VS_ClockSourceINT
+USART2	Asynchronous	USART2_RX	PA3
+USART2	Asynchronous	USART2_TX	PA2
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+3	PC13	SYS_WKUP2	
+4	PC14-OSC32_IN (PC14)	RCC_OSC32_IN	
+5	PC15-OSC32_OUT (PC15)	RCC_OSC32_OUT	
+10	PF0-OSC_IN (PF0)	RCC_OSC_IN	MCO
+19	PA2	USART2_TX	
+20	PA3	USART2_RX	
+22	PA5	GPIO_Output	LED_GREEN
+35	PB15	RTC_REFIN	
+45	PA13	SYS_SWDIO	TMS
+46	PA14-BOOT0	SYS_SWCLK	TCK
+PERIPHERALS	MODES	FUNCTIONS	PINS
+RCC	BYPASS Clock Source	RCC_OSC_IN	PF0-OSC_IN (PF0)
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_IN	PC14-OSC32_IN (PC14)
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_OUT	PC15-OSC32_OUT (PC15)
+RTC	Activate RTC Clock Source	RTC_VS_RTC_Activate	VP_RTC_VS_RTC_Activate
+RTC	RTC Enabled	RTC_VS_RTC_Calendar	VP_RTC_VS_RTC_Calendar
+RTC	Reference_Clock_Detection_Activate	RTC_REFIN	PB15
+SYS	Serial Wire	SYS_SWCLK	PA14-BOOT0
+SYS	Serial Wire	SYS_SWDIO	PA13
+SYS	SYS_WakeUp1	SYS_WKUP2	PC13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+SYS	Dead Battery Signals disabled	SYS_VS_DBSignals	VP_SYS_VS_DBSignals
+TIM1	Internal Clock	TIM1_VS_ClockSourceINT	VP_TIM1_VS_ClockSourceINT
+USART2	Asynchronous	USART2_RX	PA3
+USART2	Asynchronous	USART2_TX	PA2
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+3	PC13	SYS_WKUP2	
+4	PC14-OSC32_IN (PC14)	RCC_OSC32_IN	
+5	PC15-OSC32_OUT (PC15)	RCC_OSC32_OUT	
+10	PF0-OSC_IN (PF0)	RCC_OSC_IN	MCO
+19	PA2	USART2_TX	
+20	PA3	USART2_RX	
+22	PA5	GPIO_Output	LED_GREEN
+35	PB15	RTC_REFIN	
+45	PA13	SYS_SWDIO	TMS
+46	PA14-BOOT0	SYS_SWCLK	TCK
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : NUCLEO_G070RB_1
+Project Folder : C:\sankar\LLM\Firmware\NUCLEO_G070RB_2
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_G0 V1.6.1
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
