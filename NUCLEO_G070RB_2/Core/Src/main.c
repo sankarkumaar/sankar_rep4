@@ -168,7 +168,7 @@ int main(void)
   HAL_GPIO_WritePin(GPIOD, GPIO_PIN_1, 1);
   HAL_GPIO_WritePin(GPIOD, GPIO_PIN_2, 1);
   HAL_GPIO_WritePin(GPIOD, GPIO_PIN_3, 1);
-  ////set_time=3;////
+  ////set_time=3;//// this means time is taken
   while(1)
   {
 //	  while(1)
